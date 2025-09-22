@@ -1,7 +1,5 @@
 # pweb-html_css-p11-2025
 
-# pweb-HTML_CSS-P12-2024
-
 | Nama                      | NRP         |
 | ------------------------- | ----------- |
 | Zidny Ilman Nafi`an    | 5027221072  |
