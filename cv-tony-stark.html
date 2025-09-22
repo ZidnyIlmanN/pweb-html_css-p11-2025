@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tony Stark - Simple CV</title>
+    <style>
+        :root { --brand:#4f46e5; --text:#1f2937; --muted:#6b7280; --bg:#f9fafb; }
+        *{box-sizing:border-box;margin:0;padding:0}
+        body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;padding:24px}
+        .cv{max-width:980px;margin:0 auto;background:#fff;border:1px solid #e5e7eb;border-radius:12px;overflow:hidden}
+        .head{padding:24px;border-bottom:1px solid #e5e7eb;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+        .avatar{width:80px;height:80px;border-radius:50%;object-fit:cover;border:1px solid #e5e7eb;background:#ddd}
+        .title h1{font-size:28px;margin-bottom:4px}
+        .title p{color:var(--muted)}
+        .contact{margin-left:auto;min-width:240px}
+        .contact div{font-size:14px;color:var(--muted)}
+        .grid{display:grid;grid-template-columns:320px 1fr}
+        .side{border-right:1px solid #e5e7eb;padding:20px}
+        .main{padding:20px}
+        h2{font-size:18px;color:var(--brand);margin:12px 0}
+        .chip{display:inline-block;background:#eef2ff;color:#3730a3;padding:4px 10px;border-radius:999px;font-size:12px;margin:4px 6px 0 0}
+        .item{margin:14px 0;padding:12px;border:1px solid #e5e7eb;border-radius:8px}
+        .item .top{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+        .item .role{font-weight:bold}
+        .item .where{color:var(--brand)}
+        .item .meta{color:var(--muted);font-size:12px}
+        ul{padding-left:18px;margin-top:6px}
+        li{margin:4px 0}
+        @media(max-width:800px){.grid{grid-template-columns:1fr}.side{border-right:0;border-bottom:1px solid #e5e7eb}}
+    </style>
+</head>
+<body>
+    <div class="cv">
+        <div class="head">
+            <img class="avatar" src="photo_cv.jpg" alt="Profile Photo" />
+            <div class="title">
+                <h1>Tony Stark</h1>
+                <p>Frontend Developer & Tech Innovator</p>
+            </div>
+            <div class="contact">
+                <div>tony@starkindustries.com</div>
+                <div>+1 (555) 555-2400</div>
+                <div>10880 Malibu Point, 90265</div>
+                <div>starkindustries.com</div>
+            </div>
+        </div>
+
+        <div class="grid">
+            <aside class="side">
+                <section>
+                    <h2>About</h2>
+                    <p>Inventor dan visioner yang fokus pada solusi teknologi bersih dan web modern. Terbiasa memimpin tim dan menyelesaikan masalah kompleks secara cepat dan terukur.</p>
+                </section>
+                <section>
+                    <h2>Core Skills</h2>
+                    <div>
+                        <span class="chip">JavaScript</span>
+                        <span class="chip">React</span>
+                        <span class="chip">TypeScript</span>
+                        <span class="chip">Node.js</span>
+                        <span class="chip">Python</span>
+                        <span class="chip">AI/ML</span>
+                    </div>
+                </section>
+                <section>
+                    <h2>Languages</h2>
+                    <div>
+                        <span class="chip">English</span>
+                        <span class="chip">Indonesian</span>
+                        <span class="chip">Mandarin (Basic)</span>
+                    </div>
+                </section>
+            </aside>
+
+            <main class="main">
+                <section>
+                    <h2>Experience</h2>
+                    <div class="item">
+                        <div class="top">
+                            <div>
+                                <div class="role">CEO & Lead Developer</div>
+                                <div class="where">Stark Industries • New York</div>
+                            </div>
+                            <div class="meta">1991 - Present</div>
+                        </div>
+                        <ul>
+                            <li>Mengarahkan pengembangan produk berkelanjutan dan inovasi digital.</li>
+                            <li>Membangun framework JS internal dan arsitektur microservices.</li>
+                            <li>Optimasi performa aplikasi hingga 300%.</li>
+                            <li>Integrasi AI/ML untuk peningkatan UX.</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="top">
+                            <div>
+                                <div class="role">Founder & Technical Lead</div>
+                                <div class="where">The Avengers Initiative • Global</div>
+                            </div>
+                            <div class="meta">2012 - 2023</div>
+                        </div>
+                        <ul>
+                            <li>Platform komunikasi real-time untuk tim global.</li>
+                            <li>Dashboard monitoring dengan React & D3.js.</li>
+                            <li>Keamanan berlapis untuk aplikasi kritikal.</li>
+                            <li>Memimpin tim remote dengan Agile.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Education</h2>
+                    <div class="item">
+                        <div class="top">
+                            <div>
+                                <div class="role">Massachusetts Institute of Technology (MIT)</div>
+                                <div class="where">Cambridge, MA</div>
+                            </div>
+                            <div class="meta">Graduated at 17</div>
+                        </div>
+                        <p>Summa Cum Laude. Fisika & Teknik Elektro, fokus AI dan robotika.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Technical Skills</h2>
+                    <div class="item">
+                        <div><strong>Frontend:</strong> React, Vue, Angular, TypeScript, CSS/SASS</div>
+                        <div><strong>Backend:</strong> Node.js, Express, Python, Django, PostgreSQL, MongoDB</div>
+                        <div><strong>Tools:</strong> Git, Docker, AWS, CI/CD, Testing</div>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Achievements</h2>
+                    <div class="item">
+                        <ul>
+                            <li>J.A.R.V.I.S – personal assistant dengan NLP.</li>
+                            <li>Arc Reactor – solusi energi bersih.</li>
+                            <li>Iron Man HUD – sistem antarmuka canggih.</li>
+                            <li>MIT Innovation Award.</li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
+
+
