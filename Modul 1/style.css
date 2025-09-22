@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+body {
+    background: #ffffff;
+    color: #222;
+    line-height: 1.6;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #d62828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    z-index: 1000;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.logo span {
+    color: #fcbf49;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 1;
+    font-weight: 500;
+   
+}
+.navbar a:hover {
+    color: #fcbf49;
+}
+.btn {
+    background: #fcbf49;
+    color: #222;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: 0.3s;
+    display: inline-block;
+}
+.btn:hover {
+    background: #fff;
+    color: #d62828;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 6rem 2rem 2rem;
+    background: linear-gradient(120deg, #d62828, #fcbf49);
+    color: #fff;
+    gap: 2rem;
+}
+.hero-left, .hero-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-img img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    max-width: 250px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+.hero-text {
+    text-align: center;
+}
+.hero-text h1 {
+    font-size: 2rem;
+}
+.hero-text span {
+    color: #fcbf49;
+}
+.hero-text p {
+    margin: 1rem 0;
+}
+
+.hero-right iframe {
+    width: 100%;
+    max-width: 480px;
+    aspect-ratio: 16/9;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+.hero-right .quote {
+    font-style: italic;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #222;
+    background: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+.about {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.about h2 {
+    color: #d62828;
+    margin-bottom: 1rem;
+}
+
+.discoveries {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.discoveries h2 {
+    color: #ffaa00;
+    margin-bottom: 1rem;
+}
+
+.grid-discoveries {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.card {
+    background: #fff3cd;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    aspect-ratio: 1/1;
+    transition: transform 0.3s, background 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    background: #ffe58f;
+}
+
+footer {
+    background: #d62828;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-right iframe {
+        max-width: 100%;
+    }
+}
