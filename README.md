@@ -1,5 +1,11 @@
 # pweb-html_css-p11-2025
 
+| Nama                   | NRP        |
+| ---------------------- | ---------- |
+| Zidny Ilman Nafi`an    | 5027221072 |
+| Ananda Fitri Wibowo    | 5027241057 |
+| Ahmad Yazid Arifuddin  | 5027241040 |
+
 # Dokumentasi
 
 ## Landing Page (Dekstop View)
@@ -19,13 +25,6 @@
 <img width="492" height="867" alt="image" src="https://github.com/user-attachments/assets/3296af5e-6c44-4d77-a38b-334e4033cf0a" />
 
 
-## Kelompok
-
-| Nama                   | NRP        |
-| ---------------------- | ---------- |
-| Zidny Ilman Nafi`an    | 5027221072 |
-| Ananda Fitri Wibowo    | 5027241057 |
-| Ahmad Yazid Arifuddin  | 5027241040 |
 
 ## Deskripsi
 Proyek sederhana HTML + CSS yang menampilkan:
