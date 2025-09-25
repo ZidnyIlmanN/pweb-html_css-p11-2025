@@ -1,14 +1,21 @@
 # pweb-html_css-p11-2025
 
-## Dokumentasi
+# Dokumentasi
 
-# Landing Page (Dekstop View)
+## Landing Page (Dekstop View)
+
 <img width="1845" height="955" alt="image" src="https://github.com/user-attachments/assets/43bfbb31-175d-452b-9371-4bb97dd76d7c" />
-# CV Page (Dekstop View)
+
+## CV Page (Dekstop View)
+
 <img width="1836" height="948" alt="image" src="https://github.com/user-attachments/assets/ac5f36c1-b833-4c78-8a35-fb40e33da05c" />
-# Landing Page (Mobile View)
+
+## Landing Page (Mobile View)
+
 <img width="489" height="866" alt="image" src="https://github.com/user-attachments/assets/32d79ae6-ed53-4311-bb92-60eddae522e6" />
-# CV Page (Mobile View)
+
+## CV Page (Mobile View)
+
 <img width="492" height="867" alt="image" src="https://github.com/user-attachments/assets/3296af5e-6c44-4d77-a38b-334e4033cf0a" />
 
 
